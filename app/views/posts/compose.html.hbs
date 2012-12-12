@@ -1,0 +1,13 @@
+<div class="hero-unit">
+  <h3>Compose</h3>
+  <div id="new_draft_post" class="compose-editor"></div>
+</div>
+<script>
+  $(function() {
+    var editor = new EpicEditor({
+      container: 'new_draft_post'
+      , basePath: '/vendor/epiceditor'
+      , focusOnLoad: true
+    }).load();
+  });
+</script>

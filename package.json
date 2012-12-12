@@ -1,0 +1,26 @@
+{
+  "name": "writedown",
+  "version": "0.0.1",
+  "description": "Attempting a blogging system that suits my particular tastes",
+  "main": "start.js",
+  "dependencies": {
+    "marked": "~0.2"
+    , "handlebars": "~1.0"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polotek/writedown.git"
+  },
+  "keywords": [
+    "markdown",
+    "blog",
+    "blogging",
+    "writing"
+  ],
+  "author": "polotek (Marco Rogers)",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
