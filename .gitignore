@@ -12,3 +12,11 @@ logs
 results
 
 npm-debug.log
+
+*.swp
+*.swo
+dist
+node_modules
+.DS_Store
+
+config/secrets.json
