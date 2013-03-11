@@ -16,3 +16,14 @@ Attempting a blogging system that suits my particular tastes
 * Insert social media inline with posts (twitter, facebook)
 * Light RESTful resource api
 * REST resource responses also generated (for speed)
+
+## Technical goals
+* Independent sub systems
+  * Composition app
+  * Content server
+  * Content api service
+  * Persistence manager
+* Subsystems have programmatic interface
+
+## Technical stretch goals
+* Subsystem dependencies are injected
