@@ -5,10 +5,10 @@ Attempting a blogging system that suits my particular tastes
 
 ## Goals
 * Web-based posting
-  * markdown editor
   * insert images/files inline
   * upload images/files
 * Posts composed as markdown
+* Posts saved as markdown
 * All content is flat files in a sensible archive structure
 * All pages are static html files
 
@@ -26,4 +26,6 @@ Attempting a blogging system that suits my particular tastes
 * Subsystems have programmatic interface
 
 ## Technical stretch goals
+* Optional integration with a git repo
 * Subsystem dependencies are injected
+* Static content can be generated and served from memory
